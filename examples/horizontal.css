@@ -1,0 +1,16 @@
+.sticky-container {
+	width: 100%;
+	float: left;
+}
+
+.sticky-element {
+	background-color: #F2F2E8;
+	padding: 10px;
+	opacity: 0.9;
+}
+
+.graphic-content {
+	height: 2000px;
+	margin-left: 24%;
+}
+
