@@ -13,7 +13,8 @@ globe.onDefine("window.jQuery", function() {
 				classname: "sticky-active",
 				style: "vertical",
 				initialize: function() {
-					sticky.window.resize(sticky.resize);
+					if (!sticky.container.length) stick.container = sticky.element.parent();
+					sticky.window.resize(sticky.r esize);
 					sticky.window.scroll(sticky.scroll);
 				},
 				resize: function() {
